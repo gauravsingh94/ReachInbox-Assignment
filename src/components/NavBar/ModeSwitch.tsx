@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
-import SunIcon from "../assets/sunIcon.svg";
+import SunIcon from "../../assets/sunIcon.svg";
 
 const Switch = styled.div`
   position: relative;

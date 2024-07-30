@@ -1,12 +1,9 @@
-import Sidebar from "./components/SideBar";
-import NavBar from "./components/NavBar";
-
+import AllInBox from "./components/AllInbox/AllInbox";
 function App() {
   return (
     <>
       <div className="flex h-screen bg-gray-900 text-white">
-        <Sidebar />
-        <NavBar />
+        <AllInBox />
       </div>
     </>
   );

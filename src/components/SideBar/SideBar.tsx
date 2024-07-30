@@ -1,10 +1,10 @@
-import CompanyLogo from "../assets/company-logo.svg";
-import HomeIcon from "../assets/homeIcon.svg";
-import InboxIcon from "../assets/inbox.svg";
-import Box from "../assets/box.svg";
-import PeopleSeach from "../assets/peopleSearch.svg";
-import SentIcon from "../assets/sent.svg";
-import ListIcon from "../assets/list.svg";
+import CompanyLogo from "../../assets/company-logo.svg";
+import HomeIcon from "../../assets/homeIcon.svg";
+import InboxIcon from "../../assets/inbox.svg";
+import Box from "../../assets/box.svg";
+import PeopleSeach from "../../assets/peopleSearch.svg";
+import SentIcon from "../../assets/sent.svg";
+import ListIcon from "../../assets/list.svg";
 
 const Sidebar = () => {
   const SideBarIcons = [

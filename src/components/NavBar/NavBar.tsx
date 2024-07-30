@@ -1,4 +1,4 @@
-import DropDownIcon from "../assets/dropdown.svg";
+import DropDownIcon from "../../assets/dropdown.svg";
 import ToggleSwitch from "./ModeSwitch";
 const NavBar = () => {
   return (
