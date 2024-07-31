@@ -1,30 +1,70 @@
-# React + TypeScript + Vite
+# ReachInbox Assignment
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Overview
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was developed as part of the assignment for the Associate - Frontend Engineer role at ReachInbox.ai. The application demonstrates proficiency in frontend development with ReactJS and includes various features such as a login page, inbox page, and more.
 
-## Expanding the ESLint configuration
+## Assignment Details
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+I have completed all the requirements outlined in the assignment:
 
-- Configure the top-level `parserOptions` property like this:
+1. **Login Page**: Designed and implemented based on the provided design.
+2. **Inbox Page**: Implemented the onebox screen with API integration, keyboard shortcuts, and a custom text editor.
+3. **Reply Functionality**: Added features to send replies and implemented light and dark mode.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Folder Structure
+---
+
+```
+src
+│
+├── assets
+│   └── all SVGs used in the project
+│
+├── components
+│   └── All React components used in the project
+│
+├── pages
+│   └── All pages of the website
+│
+└── App.tsx
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## How to Setup Locally
+---
+
+To run the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone gh repo clone gauravsingh94/ReachInbox-Assignment
+   ```
+
+2. Navigate into the project directory:
+   ```bash
+   cd ReachInbox-Assignment
+   ```
+
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## UI That I Have Created
+---
+
+- **Login Page**: A responsive login page designed as per the specifications.
+- **Inbox Page**: Includes the onebox screen with integrated features.
+
+
+
+---
