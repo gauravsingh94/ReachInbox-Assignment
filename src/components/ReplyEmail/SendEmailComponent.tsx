@@ -3,10 +3,10 @@ import ReplyFormFooter from "./ReplyFormFooter";
 import ReplyFormTextArea from "./ReplyFormTextArea";
 import ReplyFormHeader from "./ReplyFormHeader";
 
-const ReplyForm = () => {
+const ReplyForm = ({ toggleFunction }: { toggleFunction: () => void }) => {
   return (
     <div className="h-[534px] w-[752px] bg-[#141517] rounded-md border-[1px] border-[#FFFFFF33] flex flex-col">
-      <ReplyFormHeader title="Reply" />
+      <ReplyFormHeader title="Reply" toggleFunction={toggleFunction} />
       <ReplyFormInputField label="To:" />
       <ReplyFormInputField label="From:" />
       <ReplyFormInputField label="Subject:" />
