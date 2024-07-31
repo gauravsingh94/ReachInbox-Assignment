@@ -1,9 +1,9 @@
-import AllInBox from "./components/AllInbox/AllInbox";
+import ViewMail from "./components/ViewMail/ViewMail";
 function App() {
   return (
     <>
-      <div className="flex h-screen bg-gray-900 text-white">
-        <AllInBox />
+      <div className="h-screen text-white bg-black">
+        <ViewMail />
       </div>
     </>
   );
