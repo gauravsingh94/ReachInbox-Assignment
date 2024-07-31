@@ -3,7 +3,7 @@ import DetailsCard from "./DetailsCard";
 import CampaignNameCard from "./CampaignNameCard";
 const RightSideDetailSection = () => {
   return (
-    <div>
+    <div className="w-64 px-2">
       <div className="mb-4">
         <HeadingDiv heading="Lead Details" />
       </div>

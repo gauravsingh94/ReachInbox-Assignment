@@ -5,7 +5,7 @@ import ViewAllDivider from "./ViewAllDivider";
 import ReplyButton from "./ReplyButton";
 const ViewMail = () => {
   return (
-    <div>
+    <div className="border-r-[1px] border-[#FFFFFF33] h-full ">
       <ViewMailTopBar />
       <div className="mb-8">
         <TodayDivider />
