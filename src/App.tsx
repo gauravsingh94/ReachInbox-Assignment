@@ -1,8 +1,8 @@
-import EmptyInbox from "./components/EmptyInbox/EmptyInboxComponent";
+import SignUpComponent from "./components/SignupComponent/SignupComponent";
 function App() {
   return (
     <div className="h-screen w-full bg-black text-white flex flex-col">
-      <EmptyInbox />
+      <SignUpComponent />
     </div>
   );
 }
