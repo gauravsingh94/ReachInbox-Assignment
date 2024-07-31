@@ -2,6 +2,7 @@ import ViewMailTopBar from "./ViewMailTopBar";
 import TodayDivider from "./TodayDivider";
 import MailContentCard from "./MailContentCard";
 import ViewAllDivider from "./ViewAllDivider";
+import ReplyButton from "./ReplyButton";
 const ViewMail = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const ViewMail = () => {
       <div>
         <ViewAllDivider />
       </div>
+      <ReplyButton />
     </div>
   );
 };

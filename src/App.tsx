@@ -1,8 +1,10 @@
-import ReplyForm from "./components/ReplyEmail/SendEmailComponent";
+import Popup from "./components/PopUpCard/PopUpCard";
+import ViewMail from "./components/ViewMail/ViewMail";
 function App() {
   return (
     <div className="h-screen w-full bg-black text-white flex flex-col">
-      <ReplyForm />
+      <ViewMail />
+      <Popup isOpen={true} />
     </div>
   );
 }
