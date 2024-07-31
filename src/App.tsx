@@ -2,7 +2,7 @@ import NavBar from "./components/NavBar/NavBar";
 import AllInBox from "./components/AllInbox/AllInbox";
 import ViewMail from "./components/ViewMail/ViewMail";
 import Sidebar from "./components/SideBar/SideBar";
-
+import RightSideDetailSection from "./components/RightSideDetailSection/RightSideDetailSection";
 function App() {
   return (
     <div className="h-screen w-full bg-black text-white flex flex-col">
@@ -12,6 +12,9 @@ function App() {
         <AllInBox />
         <div className="flex-grow">
           <ViewMail />
+        </div>
+        <div className="mt-4 px-5">
+          <RightSideDetailSection />
         </div>
       </div>
     </div>
