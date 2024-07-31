@@ -1,6 +1,6 @@
 const MailContentCard = () => {
   return (
-    <div className="h-60  w-full py-[6px] px-6 rounded-md border-[1px] border-[#FFFFFF33]  bg-[#141517] text-[12px] flex flex-col justify-center">
+    <div className="h-60  w-full py-[6px] px-6 rounded-md border-[1px] border-borderColorLight dark:border-borderColorDark bg-white dark:bg-[#141517] text-[12px] text-black dark:text-white flex flex-col justify-center">
       <div className="flex justify-between">
         <p className="text-[14px] font-semibold">New Product Launch</p>
         <p className="text-[14px] text-[#7F7F7F]">20 june 2022 : 9:16AM</p>

@@ -17,7 +17,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="w-[56px] h-full bg-[#101113] py-4 flex flex-col justify-between items-center gap-y-4">
+    <div className="w-[56px] h-full bg-[#FAFAFA] dark:bg-[#101113] py-4 flex flex-col justify-between items-center gap-y-4 ">
       <img src={CompanyLogo} className="logo" alt="Vite logo" />
 
       <div className="p-2 flex flex-col justify-center items-between  ">

@@ -14,7 +14,7 @@ const Status = ({ status }: PropsTypes) => {
 
   return (
     <div
-      className="h-5 w-full text-[#57E0A6] bg-[#222426] flex justify-center items-center gap-1 rounded-xl text-[10px]"
+      className="h-5 w-full text-[#57E0A6] bg-[#F0F0F0] dark:bg-[#222426] flex justify-center items-center gap-1 rounded-xl text-[10px]"
       style={{ color: smallCircleColor }}
     >
       <div

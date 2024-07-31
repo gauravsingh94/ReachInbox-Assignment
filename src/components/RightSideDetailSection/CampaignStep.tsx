@@ -20,7 +20,9 @@ const CampaignStep = ({ stepNumber, status, date }: PropsType) => {
         )}
       </div>
       <div className="ml-4">
-        <h2 className="text-[13px] text-white">Step {stepNumber}: Email</h2>
+        <h2 className="text-[13px] text-black dark:text-white">
+          Step {stepNumber}: Email
+        </h2>
         <div className="flex gap-2 items-center">
           <div className="h-[13px] w-[13px]">
             {status === "Sent" && <img src={SendStatusIcon} alt="Sent" />}

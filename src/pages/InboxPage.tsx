@@ -5,7 +5,7 @@ import Sidebar from "../components/SideBar/SideBar";
 import RightSideDetailSection from "../components/RightSideDetailSection/RightSideDetailSection";
 function InboxPage() {
   return (
-    <div className="h-screen w-full bg-black text-white flex flex-col">
+    <div className="h-screen w-full bg-white dark:bg-black text-white flex flex-col">
       <NavBar />
       <div className="flex w-full" style={{ height: "calc(100vh - 64px)" }}>
         <Sidebar />

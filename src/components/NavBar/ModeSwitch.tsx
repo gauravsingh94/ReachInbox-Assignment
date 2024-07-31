@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styled from "styled-components";
 import SunIcon from "../../assets/sunIcon.svg";
 
@@ -12,7 +12,7 @@ const Switch = styled.div`
   cursor: pointer;
 `;
 
-const Knob = styled.div`
+const Knob = styled.div<{ isOn: boolean }>`
   position: absolute;
   top: 3px;
   left: ${({ isOn }) => (isOn ? "32px" : "3px")};
@@ -23,7 +23,7 @@ const Knob = styled.div`
   transition: left 0.3s;
 `;
 
-const Icon = styled.div`
+const Icon = styled.div<{ isOn: boolean }>`
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -32,8 +32,16 @@ const Icon = styled.div`
   color: ${({ isOn }) => (isOn ? "#000" : "#FFD700")};
 `;
 
-const ToggleSwitch = () => {
-  const [isOn, setIsOn] = useState(false);
+const ToggleSwitch: React.FC = () => {
+  const [isOn, setIsOn] = useState(true);
+
+  useEffect(() => {
+    if (isOn) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [isOn]);
 
   const handleToggle = () => {
     setIsOn(!isOn);
@@ -43,7 +51,7 @@ const ToggleSwitch = () => {
     <Switch isOn={isOn} onClick={handleToggle}>
       <Knob isOn={isOn} />
       <Icon isOn={isOn}>
-        {isOn ? <img src={SunIcon} alt="Sun Icon" /> : "🌙"}
+        {isOn ? "🌙" : <img src={SunIcon} alt="Sun Icon" />}
       </Icon>
     </Switch>
   );

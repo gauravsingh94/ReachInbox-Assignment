@@ -4,7 +4,7 @@ const LoginPage = () => {
   return (
     <>
       <SignUpTopBar />
-      <div className=" h-screen flex justify-center items-center ">
+      <div className=" h-screen flex justify-center items-center bg-black text-white">
         <SignupComponent />
       </div>
     </>

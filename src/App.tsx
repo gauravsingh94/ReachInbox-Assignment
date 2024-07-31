@@ -1,10 +1,18 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import LoginPage from "./pages/LoginPage";
 import InboxPage from "./pages/InboxPage";
-function App() {
+
+const App = () => {
   return (
-    <div className="h-screen w-full bg-black text-white flex flex-col">
-      <InboxPage />
+    <div className=" w-full bg-white dark:bg-black text-black dark:text-white">
+      <Router>
+        <Routes>
+          <Route path="/" element={<LoginPage />} />
+          <Route path="/inbox" element={<InboxPage />} />
+        </Routes>
+      </Router>
     </div>
   );
-}
+};
 
 export default App;

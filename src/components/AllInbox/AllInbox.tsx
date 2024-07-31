@@ -7,7 +7,7 @@ import EmailListCard from "./EmailListCard";
 
 const AllInBox = () => {
   return (
-    <div className="bg-black w-72 flex flex-col items-center px-6 py-8 h-full border-r-[1px] border-[#FFFFFF33]">
+    <div className="bg-white dark:bg-black w-72 flex flex-col items-center px-6 py-8 h-full border-l-[1px] border-r-[1px] border-borderColorLight dark:border-borderColorDark">
       <div className="w-full flex items-center justify-between">
         <div className="flex justify-center items-center gap-2">
           <h1 className="text-[#4285F4] text-[20px] font-bold">All Inbox(s)</h1>
@@ -22,7 +22,7 @@ const AllInBox = () => {
 
       <div className="flex justify-start w-full">
         <div className="flex gap-2">
-          <div className="font-bold">25/25</div>
+          <div className="text-black dark:text-white font-bold">25/25</div>
           <span className="text-[#7F7F7F]">Inboxes selected</span>
         </div>
       </div>
@@ -31,12 +31,12 @@ const AllInBox = () => {
         <SearchBar />
       </div>
 
-      <div className="w-full mt-2 flex justify-between">
+      <div className="w-full mt-2 flex justify-between text-black dark:text-white">
         <div className="flex items-center gap-2">
           <div>
             <ReplyCount count={26} />
           </div>
-          <div className="font-semibold">New Replies</div>
+          <div className="font-semibold ">New Replies</div>
         </div>
 
         <div className="flex items-center gap-2">
