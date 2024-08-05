@@ -1,6 +1,9 @@
 import CancleButton from "./CancelButton";
 import DeleteButton from "./DeleteButton";
-const Popup = ({ isOpen, onClose }) => {
+interface PropsType {
+  isOpen: boolean;
+}
+const Popup = ({ isOpen }: PropsType) => {
   if (!isOpen) return null;
 
   return (

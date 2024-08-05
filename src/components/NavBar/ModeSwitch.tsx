@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import styled from "styled-components";
 import SunIcon from "../../assets/sunIcon.svg";
 
-const Switch = styled.div`
+const Switch = styled.div<{ isOn: boolean }>`
   position: relative;
   width: 60px;
   height: 30px;
