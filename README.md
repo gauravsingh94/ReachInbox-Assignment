@@ -63,7 +63,13 @@ To run the project locally, follow these steps:
 ---
 
 - **Login Page**: A responsive login page designed as per the specifications.
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/c637c31e-cd1b-4e06-aa64-30c9e3f1b69a">
+
+
+
 - **Inbox Page**: Includes the onebox screen with integrated features.
+  
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/1c6f26de-90c7-4638-bd39-017ed6d63d82">
 
 
 
