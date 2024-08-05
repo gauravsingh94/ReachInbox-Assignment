@@ -3,7 +3,7 @@ import CreateAccountButton from "./CreateAccountButton";
 const SignupComponent = () => {
   const handleSignUp = () => {
     window.location.href =
-      "https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=http://localhost:5173/inbox";
+      "https://hiring.reachinbox.xyz/api/v1/auth/google-login?redirect_to=https://reach-inbox-assignment-alpha.vercel.app/inbox";
   };
   return (
     <div className="h-72  w-[500px] py-[6px] px-6 rounded-xl border-[1px] border-[#FFFFFF33]  bg-[#141517] text-[12px] flex flex-col justify-center items-center gap-4">
